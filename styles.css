@@ -1,0 +1,13 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.flashcard {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    text-align: center;
+    border: 1px solid black;
+    padding: 50px 0px;
+}
